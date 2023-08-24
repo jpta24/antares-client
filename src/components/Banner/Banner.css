@@ -33,11 +33,18 @@
 	top: 50%; /* Alinea verticalmente en el centro */
 	left: 50%; /* Alinea horizontalmente en el centro */
 	transform: translate(-50%, -50%); /* Centra perfectamente */
-	color: rgb(15 8 44); /* Color del texto */
+	color: rgb(255, 255, 255); /* Color del texto */
 	padding: 10px; /* Espacio alrededor del texto */
 	z-index: 2;
     font-size: 4em;
     font-weight: bolder;
     text-shadow: 0 0 30px whitesmoke;
     -webkit-text-stroke: 0.01px #414e7c;
+}
+
+@media (max-width: 600px) {
+    .video-heading {
+        font-size: 2em;
+        width: 85vw;
+    }
 }

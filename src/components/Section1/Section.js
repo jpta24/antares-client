@@ -9,11 +9,11 @@ const Section = () => {
 						Servicios de Procura Especializados
 					</h2>
 				</div>
-				<div class='services-content d-flex justifi-content-arould '>
-					<div className='col-md-5 col-11'>
+				<div class='services-content d-flex flex-wrap justify-content-around p-3 mx-auto'>
+					<div className='col-md-5 col-11 my-5'>
 						<img src='section1.png' alt='' className='col-11' />
 					</div>
-					<div class='services-description col-md-6 col-11 text-start fw-bold fs-5'>
+					<div class='services-description col-md-6 col-11 text-start fw-bold fs-5  my-3'>
 						<p>
 							Nuestra empresa, Antares Internacional Trade Corp, Ofrece
 							servicios de procura especializados, enfocados en adquirir y

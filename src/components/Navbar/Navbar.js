@@ -11,6 +11,7 @@ function Navbar() {
 						width='50px'
 						height='50px'
 						alt='altLogo'
+						className='logo'
 					/>{' '}
 					<span className='text-light h3 px-4 '>
 						Antares International Trade Corp.

@@ -49,7 +49,7 @@ const Banner = () => {
 				/>
 				Your browser does not support the video tag.
 			</video>
-			<h1 className='video-heading'>{text}</h1>
+			<span className='video-heading'>{text}</span>
 		</div>
 	);
 };

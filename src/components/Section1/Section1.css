@@ -1,0 +1,20 @@
+.services-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.icon p {
+    font-weight: bold;
+}

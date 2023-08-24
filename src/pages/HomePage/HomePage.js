@@ -1,12 +1,14 @@
-import "./HomePage.css";
-
+import Banner from '../../components/Banner/Banner';
+import Section from '../../components/Section1/Section';
+import './HomePage.css';
 
 function HomePage() {
-  return (
-    <div>
-      <h1>Home page</h1>
-    </div>
-  );
+	return (
+		<div>
+			<Banner />
+            <Section/>
+		</div>
+	);
 }
 
 export default HomePage;

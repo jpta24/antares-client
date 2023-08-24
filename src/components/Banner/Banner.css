@@ -1,0 +1,43 @@
+.responsive-container {
+	width: 100%;
+	max-width: 100%;
+	max-height: 70vh; /* Establece el máximo de altura al 70vh */
+	overflow: hidden; /* Para asegurarse de que el video no exceda el contenedor */
+	position: relative; /* Para posicionar el video y la imagen de manera relativa */
+
+	/* Centrar verticalmente el contenido */
+	display: flex;
+	align-items: center;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad aquí */
+		z-index: 1; /* Asegurarse de que el fondo esté por encima del video */
+	}
+}
+
+/* Estilo adicional para asegurarte de que las imágenes dentro del video sean también responsivas */
+.responsive-container img {
+	max-width: 100%;
+	height: auto;
+	display: block; /* Evita el espacio adicional debajo de las imágenes */
+	margin: 0 auto; /* Centrar horizontalmente las imágenes */
+}
+
+.video-heading {
+	position: absolute; /* Para posicionar de manera absoluta */
+	top: 50%; /* Alinea verticalmente en el centro */
+	left: 50%; /* Alinea horizontalmente en el centro */
+	transform: translate(-50%, -50%); /* Centra perfectamente */
+	color: rgb(15 8 44); /* Color del texto */
+	padding: 10px; /* Espacio alrededor del texto */
+	z-index: 2;
+    font-size: 4em;
+    font-weight: bolder;
+    text-shadow: 0 0 30px whitesmoke;
+    -webkit-text-stroke: 0.01px #414e7c;
+}

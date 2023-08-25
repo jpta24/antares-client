@@ -32,7 +32,7 @@ const Banner = () => {
 	}, []);
 
 	return (
-		<div className='responsive-container'>
+		<div id='home' className='responsive-container'>
 			{isLoading && <img src='banner.jpg' alt='Loading' />}
 			<video
 				controls

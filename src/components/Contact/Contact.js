@@ -15,13 +15,12 @@ const Contact = () => {
 	const [showModal, setShowModal] = useState(false)
 
 	const postAPI = async () => {
-	
 		try {
 			const response = await axios.post(
 				`https://pink-clumsy-gosling.cyclic.app/mails/webmessage`,
 				message
 			);
-			console.log(response.data.message)
+			console.log(response)
 			setShowModal(true)
 		} catch (error) {
 			console.error(error)
